@@ -7,24 +7,24 @@ var5 = (input("please input No. here "))
 
 # Find and print the highest number using only if statement. 
 if var1>var2:
-    if var1>var3:
+    if var1>= var3:
         print(var1)
        
 
 
-    if var2>var3:
+    elif var2>= var3:
         print(f"The highest {var2}")
         
 
-    if var3>var4:
+    elif var3>= var4:
         print(f"The highest {var3}")
       
 
-    if var4>var5:
+    elif var4>= var5:
         print(f"The highest {var4}")
       
 
-    if var5>var5:
+    else:
         print(f"The highest {var5}")
                                    
     
