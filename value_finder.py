@@ -10,14 +10,11 @@ if var1>=var2 and var1>=var3 and var1>=var4 and var1>=var5 :
     print(f"The highest is {var1}")
 
 
-       
-
-
-elif var2>= var3:
+elif var2>= var3 and var2>=var4 and var1>=var5 : 
         print(f"The highest {var2}")
-        
+         
 
-elif var3>= var4:
+elif var3>= var4 and var3>=var5:
         print(f"The highest {var3}")
       
 
